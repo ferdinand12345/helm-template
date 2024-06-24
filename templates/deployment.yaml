@@ -15,6 +15,6 @@ spec:
       spec:
         containers:
           - name: httpd
-            image: xxx
+            image: image-registry.openshift-image-registry.svc:5000/project-testing/backend-api
             ports:
-              - containerPort: 8080
+              - containerPort: 8081
